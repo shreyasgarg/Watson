@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100);
+body {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+html
+{
+    background-color: orange;
+    background: url(bg.jpg) no-repeat center center fixed;
+}
+input
+{
+    font-size: 10pt;
+}
+#header
+{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 48pt;
+}
+#description
+{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16pt;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#container
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    height: 30%;
+}
+td
+{
+    color: white;
+}
+table
+{
+    font-size: 16pt;
+    border-color: black;
+    border: 1px solid white;
+    border-spacing: 15px;
+}
+#ans
+{
+    font-size: 24pt;
+}

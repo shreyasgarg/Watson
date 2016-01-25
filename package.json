@@ -1,0 +1,17 @@
+{
+  "name"         : "watsonscrape",
+  "version"      : "0.0.1",
+  "description"  : "Natural Language Processing using IBM Watson",
+  "main"         : "server.js",
+  "author"       : "Shreyas Garg",
+    "engines": {
+    "node": "4.1.1"
+  },
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "mime"       : "~1.2.7",
+    "formidable" : "latest"
+  }
+}

@@ -1,0 +1,95 @@
+<html style = "background: url(http://www.download-free-wallpaper.com/img23/vmusxympaudbvneowjao.jpg) no-repeat center center fixed">
+<head>
+    <title> Watson News Form </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100);
+    body {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    }
+    input
+    {
+        font-size: 10pt;
+    }
+    #header
+    {
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        font-size: 48pt;
+    }
+    #description
+    {
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 16pt;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #container
+    {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        height: 30%;
+    }
+    td
+    {
+        color: white;
+    }
+    table
+    {
+        font-size: 16pt;
+        border-color: black;
+        border: 1px solid white;
+        border-spacing: 15px;
+    }
+    #ans
+    {
+        font-size: 24pt;
+    }
+    </style>
+</head>
+<body>
+<div id = "header"> Welcome to Watson News</div>
+<div id = "description"> This is a webapp that uses Natural Language Processing (courtesy of the IBM Waton Data Alchemy API) to search all possible news articles with added capability of grouping of ideas, relationship between key words, as well as sentiment analysis </div>
+<div id = "container">
+    <form method = "post" action="page2.html">
+        <table>
+            <tr>
+                <td>Taxonomy</td>
+                <td>  <input type = "text" name = "taxonomy" placeholder = "Ex: Movies"></td>
+                <td>The overarching idea behind the search</td>
+            </tr>
+            <tr>
+                <td>Concept</td>
+                <td>  <input type = "text" name = "concept" placeholder = "Ex: Action"></td>
+                <td>An idea within the taxonomy </td>
+            </tr>
+            <tr>
+                <td>Key Words</td>
+                <td>  <input type = "text" name = "keywords" placeholder = "Ex: Kung Fu Panda"></td>
+                <td>Key word you are looking for</td>
+            </tr>
+            <tr>
+                <td>Sentiment</td>
+                <td>  <input type = "text" name = "sentiment" placeholder = "Ex: .7"></td>
+                <td>A number between 0 and 1, with .5 being neither positive nor negative</td>
+            </tr>
+            <tr>
+            <td></td>
+            <td></td>
+            <td><input id = "ans" type="submit" value="Submit"> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
